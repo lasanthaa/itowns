@@ -23,7 +23,7 @@ fi
 
 # Save some useful information
 REPO=`git config remote.origin.url`
-SITE_REPO=git@github.com:iTowns/itowns.github.io.git
+SITE_REPO=git remote add origin git@github.com:lasanthaa/itowns.git
 SHA=`git rev-parse --verify HEAD`
 COMMIT_AUTHOR_EMAIL=`git show  --pretty=format:"%ae" -q`
 COMMIT_AUTHOR_NAME=`git show  --pretty=format:"%an" -q`
